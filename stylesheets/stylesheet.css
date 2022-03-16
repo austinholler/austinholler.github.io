@@ -2,35 +2,47 @@ html {
 	/* Full height */
   min-height: 100%;
 	background-color: #fdfff5;
-  font-family: 'Lora', Helvetica, Arial, serif;
+  font-family: 'Poiret One', Helvetica, Arial, serif;
 }
 
 .header-container {
-	margin: 0;
-	padding:0;
 	text-align: center;
 	position: absolute;
 	top: 50%;
 	left:50%;
 	transform: translateX(-50%) translateY(-50%);
-	color: #303030;
+	color: #0f0f0f;
 }
 
 body h1 {
-  font-size: 5vw; font-weight: lighter;
+  font-size: 5vw; font-weight:bold;
   letter-spacing: -1px;
 	margin: 0;
 	padding: 0.5vw;
 }
 
-body h2 {
-  font-size: 1.5vw; font-weight: lighter;
+.header-icons {
 	margin: 0;
 	padding: 1vw;
-	border-top: 0.15vw solid black;
+  width: 105%;
+  position: relative;
+  right: 1.85vw;
+	border-top: 0.2vw solid black;
+  display: flex;
+  justify-content: space-around;
 }
 
-.icon-group {
+.header-icons a {
+  max-height: 10%;
+  max-width: 10%;
+}
+
+.header-icons img {
+  height: 100%;
+  width: 100%;
+}
+
+.footer-icons {
   position: absolute;
 	bottom: 0.25%;
   display: flex;
@@ -39,19 +51,19 @@ body h2 {
   justify-content: space-around;
 }
 
-.icon-group a {
+.footer-icons a {
   display: flex;
   max-height: 16%;
   max-width: 16%;
 }
 
-.home-icons {
+.footer-icons img {
   height: 100%;
   width: 100%
 }
 
 .created-by {
-	font-size: 13px; font-weight: lighter;
+	font-size: 13px; font-weight: normal;
 	position: absolute;
 	bottom: 0;
 	right: 0.5%;

@@ -1,3 +1,3 @@
-# austinholler.github.io
+# Austin S Holler
 
-GitHub Page
+Austin S Holler's personal webpage hosted as a Github Page
